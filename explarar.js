@@ -23,6 +23,7 @@ async function consultarPokemon(){
    
      console.log ("Habilidad del pokemon:")
     for(let kability = 0; kability< datos.abilities.length; kability ++){
+        
         console.log ( datos.abilities[kability].ability.name )
 
         
